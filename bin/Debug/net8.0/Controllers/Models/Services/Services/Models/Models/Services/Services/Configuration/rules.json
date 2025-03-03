@@ -1,0 +1,22 @@
+[
+    {
+      "RuleId": "1",
+      "Condition": "amount < 1000 AND riskLevel == 'Low'",
+      "Action": "Approve"
+    },
+    {
+      "RuleId": "2",
+      "Condition": "classification == 'FireDamagedWallRepair' AND riskLevel == 'High'",
+      "Action": "Flag for Review"
+    },
+    {
+      "RuleId": "3",
+      "Condition": "amount > 5000",
+      "Action": "Manager Approval Required"
+    },
+    {
+      "RuleId": "4",
+      "Condition": "classification == 'WaterLeakDetection' AND amount < 2000",
+      "Action": "Fast Track"
+    }
+  ]

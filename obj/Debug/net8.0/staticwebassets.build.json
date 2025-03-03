@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "x8mM7YDwF7nO9q3B2iBfrVEiaksXJVtrxJF8RsTI+wU=",
+  "Source": "InvoiceEvaluationAPI",
+  "BasePath": "_content/InvoiceEvaluationAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
