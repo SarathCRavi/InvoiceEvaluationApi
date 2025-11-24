@@ -18,31 +18,6 @@ Newtonsoft.Json
 RestSharp (HTTP client for API calls)
 Polly (Resilience & retries)
 NUnit & Moq (Unit testing)
-
-📂 Project Structure
-📂 InvoiceEvaluationAPI
- ┣ 📂 Controllers        # API endpoints
- ┃ ┣ 📜 InvoiceController.cs
- ┣ 📂 Services           # Business logic (validation, rule processing)
- ┃ ┣ 📜 IInvoiceValidator.cs
- ┃ ┣ 📜 InvoiceValidator.cs
- ┃ ┣ 📜 IThirdPartyApiService.cs
- ┃ ┣ 📜 ThirdPartyApiService.cs
- ┃ ┣ 📜 IRuleEngineService.cs
- ┃ ┣ 📜 RuleEngineService.cs
- ┣ 📂 Models             # DTOs & domain models
- ┃ ┣ 📜 InvoiceRequest.cs
- ┃ ┣ 📜 InvoiceEvaluationResponse.cs
- ┃ ┣ 📜 Rule.cs
- ┣ 📂 Tests              # Unit & integration tests
- ┃ ┣ 📜 InvoiceValidatorTests.cs
- ┃ ┣ 📜 RuleEngineTests.cs
- ┃ ┣ 📜 IntegrationTests.cs
- ┣ 📜 Program.cs         # Entry point & DI configuration
- ┣ 📜 appsettings.json   # Configuration settings
- ┣ 📜 README.md          # Project documentation
- ┣ 📜 InvoiceEvaluationAPI.csproj  # Project file
- ┗ 📜 .gitignore         # Git ignored files
 	
 🔧 Setup & Installation
 1️.Clone the Repository
@@ -105,3 +80,4 @@ dotnet test
 This project is open-source.
 
 📌 GitHub Repo: https://github.com/SarathCRavi/InvoiceEvaluationApi.git
+
